@@ -2,7 +2,7 @@
 title: Loadings Web API Sample
 emoji: 🚀
 colorFrom: gray
-colorTo: white
+colorTo: indigo
 sdk: docker
 pinned: false
 license: mit

@@ -30,7 +30,9 @@ Rscript pr.R
 
 ## API のエンドポイント
 
-### http://127.0.0.1:7000/pca
+Local: http://127.0.0.1:7860/pca
+
+Hugging Face Spaces: https://myxogastria0808-loadings-web-api-sample.hf.space/pca
 
 ````r
 #* 主成分分析の因子負荷量の検定
@@ -52,7 +54,9 @@ function() {
 }
 ````
 
-### http://127.0.0.1:7000/correlation-coefficien/{number}
+Local: http://127.0.0.1:7860/correlation-coefficien/{number}
+
+Hugging Face Spaces: https://myxogastria0808-loadings-web-api-sample.hf.space/correlation-coefficien/{number}
 
 ````r
 #* 因子負荷量の分布
@@ -83,7 +87,9 @@ function(number) {
 }
 ````
 
-### http://127.0.0.1:7000/correlation-coefficien/p-value/{number}
+Local: http://127.0.0.1:7860/p-value/{number}
+
+Hugging Face Spaces: https://myxogastria0808-loadings-web-api-sample.hf.space/p-value/{number}
 
 ````r
 #* p値の分布
@@ -110,7 +116,9 @@ function(number) {
 }
 ````
 
-## http://127.0.0.1:7000/__docs__/#
+Local: http://127.0.0.1:7860/__docs__/#/
+
+Hugging Face Spaces: https://myxogastria0808-loadings-web-api-sample.hf.space/__docs__/#/
 
 以下は、Swagger UI の画面の様子です。
 

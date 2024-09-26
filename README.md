@@ -11,7 +11,7 @@ Nix を使用して環境の構築
 nix-shell
 ```
 
-Web APi の起動
+Web API の起動
 
 ```
 cd src

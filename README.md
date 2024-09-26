@@ -1,3 +1,13 @@
+---
+title: Loadings Web API Sample
+emoji: 🚀
+colorFrom: gray
+colorTo: white
+sdk: docker
+pinned: false
+license: mit
+---
+
 # Loading Web API Sample
 
 ## Setup

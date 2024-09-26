@@ -4,7 +4,7 @@ services:
     container_name: loadings-web-api-sample
     build:
       context: .
-      dockerfile: ./src/Dockerfile
+      dockerfile: ./Dockerfile
     ports:
       - "7860:7860"
     tty: true

@@ -6,4 +6,4 @@ RUN R -e "install.packages("loadings")"
 
 EXPOSE 7860
 
-CMD ["Rscript", "pr.R"]
+CMD ["Rscript", "./src/pr.R"]

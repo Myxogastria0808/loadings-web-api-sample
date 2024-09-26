@@ -2,7 +2,7 @@ FROM rstudio/plumber:latest
 
 COPY . .
 
-RUN R -e "install.packages("loadings")"
+RUN R -e "install.packages('loadings')"
 
 EXPOSE 7860
 
